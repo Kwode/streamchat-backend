@@ -8,8 +8,7 @@ from models import ChatResponse
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",  # React
-    "http://localhost:5173",  # Vite
+    "https://streamchat-frontend.vercel.app/"
 ]
 
 app.add_middleware(
